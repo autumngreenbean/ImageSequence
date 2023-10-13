@@ -1,13 +1,10 @@
-
 import processing.video.*;
 import java.nio.file.*;
-
 
 int size;
 int frame;
 PImage[] images;
 PGraphics canvas;
-boolean recording = false;
 
 void setup() {
   size(640, 480);
